@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: Aqua-ix/github-profile-summary-cards@release
+      - uses: Aqua-ix/github-profile-summary-cards@show-own-email
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
